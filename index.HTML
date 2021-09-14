@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <link rel="stylesheet" href="form.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+
+    <title>Отправка формы на почту </title>
+
+    <!-- Bootstrap core CSS -->
+    
+
+    <!-- Custom styles for this template -->
+    
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="form">
+            <form action="index.php" id="form" class="form__body" method="POST">
+                <h1 class="form__title">Заполните все поля</h1>
+                <div class="form__item">
+                    <label for="formName" class="form__label">Имя</label>
+                    <input id ="formName" type="text" name="user_name" class="form__input ">
+                </div>
+                
+                <div class="form__item">
+                    <label for="formAdress" class="form__label">Полный Адрес</label>
+                    <input id ="formAdress" type="text" name="user_address" class="form__input">
+                </div>
+                
+                <div class="form__item">
+                    <label for="formNumber" class="form__label">Номер телефона </label>
+                    <input id ="formNumber" type="text" name="user_number" class="form__input">
+                </div>
+                
+                <div class="form__item">
+                    <label for="formProductNumber" class="form__label">Номер продукта</label>
+                    <input id ="formProductNumber" type="text" name="product_number" class="form__input">
+                </div>
+                <button type="submit" class="form__button">Заказат</button>
+            </form>
+        </div>
+    </div>
+    
+  
+</html>
+	
